@@ -24,7 +24,7 @@ cd Downloads/big-data-3/mongodb
 
 # open a new terminal shell window, export tweet data from MongoDB to a CSV file
 cd Downloads/big-data-3/mongodb
-./mongodb/bin/mongoexport --db sample --collection users --type-csv --fields tweet_text --out /big-data/tweet-text.csv
+./mongodb/bin/mongoexport --db sample --collection users --type=csv --fields tweet_text --out /big-data/tweet-text.csv
 ```
 
 ## Reference
